@@ -1,0 +1,17 @@
+table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+td {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.txt-red {
+  font-size: 120%;
+}
+
+span {
+  font-size: 85%;
+}

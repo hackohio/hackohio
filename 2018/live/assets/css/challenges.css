@@ -1,0 +1,17 @@
+table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+td {
+  font-size: 18px;
+  padding: 5px;
+}
+
+td:first-child {
+  width: 30%;
+}
+
+td span {
+  font-size: 85%;
+}
