@@ -1,7 +1,7 @@
 body {
 	display: flex;
   	flex-direction: column;
-  	background-image: url('../../../../assets/img/layout/chevron.png');
+  	background-image: url('../../../../hack-assets/img/layout/chevron.png');
   	min-height: 100vh;
   	font-family: 'proximanova', 'proxima-nova', Proxima Nova, Helvetica, sans-serif;
 }

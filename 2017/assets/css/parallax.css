@@ -25,7 +25,7 @@
   z-index: 10;
   color: black;
   background-color: #bb0000;
-  background-image:url('../../../assets/img/layout/chevron.png');
+  background-image:url('../../../hack-assets/img/layout/chevron.png');
   display: flex;
   flex-direction: column;
 }
