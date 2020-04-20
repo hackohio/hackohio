@@ -192,6 +192,11 @@ p {
 .low-bottom-margin {
     margin-bottom: 3px;
 }
+
+h1 {
+    font-size: 30pt;
+}
+
 h2 {
     color: #333333;
     font-size: 1.6em;
