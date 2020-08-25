@@ -177,11 +177,10 @@
 }
 
 .faq-question p{
-    color: #888888;
 }
 
 .faq-question a{
-    color: #888888;
+    color: rgb(44, 44, 44);
     text-decoration: underline;
 }
 
