@@ -172,15 +172,17 @@
     text-align: left;
 }
 
+
 .faq-question h3{
-    color: black;
+    color: rgb(153, 153, 153);
 }
 
 .faq-question p{
+    color: white;
 }
 
 .faq-question a{
-    color: rgb(44, 44, 44);
+    color: white;
     text-decoration: underline;
 }
 
@@ -189,6 +191,7 @@
     font-size: 1.2em;
     font-weight: 250;
     text-align: left;
+    color: white;
 }
 
 #about img {
@@ -196,7 +199,7 @@
 }
 
 #about a {
-    color: rgb(44, 44, 44);
+    color: white;
     text-decoration: underline;
 }
 

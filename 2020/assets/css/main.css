@@ -55,6 +55,13 @@ h1 {
     margin: 3vh 0 2vh 0;
 }
 
+.section-header{
+    color: rgb(153, 153, 153)
+}
+
+p {
+    color: white;
+}
 h2 {
     font-size: 1.6em;
     font-weight: 200;
