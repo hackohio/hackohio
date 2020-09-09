@@ -7,7 +7,7 @@ $(document).ready(function() {
         url: sheetURL,
         query: "select * where dateDiff(C, now()) >= -1 and I='y' order by C asc",
         callback: formatTable,
-        reset: true
+        reset: false
     });
 
     function formatTable() {
