@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Spreadsheet URL
-    var sheetURL = 'https://docs.google.com/spreadsheets/d/1fbtCptVlhUuUrm-JdBelXlSyyLAlgQDUDIV8NMVpxNU/edit#gid=0';
+    var sheetURL = 'https://docs.google.com/spreadsheets/d/1YHJo6R98dmx3G5KSqEpQUzdz1uWCFn5KH6H0VQxr78g/edit#gid=0';
 
     $('#hype-events-list').empty();
     $('#hype-events-list').sheetrock({
