@@ -39,7 +39,7 @@ h1 #home {
 }
 
 #content {
-    background-color: #bb0000;
+    background-color: white;
     margin: 0;
     width: 100%;
     position: relative;
@@ -60,7 +60,7 @@ h1 {
 }
 
 p {
-    color: white;
+    color: black;
 }
 h2 {
     font-size: 1.6em;

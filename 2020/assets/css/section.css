@@ -119,7 +119,7 @@
 
 #schedule h2 {
     text-align: center;
-    color: #bb0000;
+    color: gray;
     font-weight: 500;
 }
 
@@ -178,11 +178,11 @@
 }
 
 .faq-question p{
-    color: white;
+    color: gray;
 }
 
 .faq-question a{
-    color: white;
+    color: gray;
     text-decoration: underline;
 }
 
@@ -191,7 +191,7 @@
     font-size: 1.2em;
     font-weight: 250;
     text-align: left;
-    color: white;
+    color: gray;
 }
 
 #about img {
@@ -199,7 +199,7 @@
 }
 
 #about a {
-    color: white;
+    color: gray;
     text-decoration: underline;
 }
 
@@ -212,4 +212,13 @@
 
 .challenge-question {
     text-align: left;
+}
+
+.tier{
+    text-align: center; padding: 10%; background-color: black; color: white;
+}
+
+.sponsor-logos-row {
+    padding: 1%;
+    align-items: center;
 }
