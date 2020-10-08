@@ -11,8 +11,7 @@ $(document).ready(function() {
         var id = $('.section')[i].hash;
         $("#content").append('<div id="'+id.substr(1)+'" class="section-page"></div>');
         $(id).load("sections/"+id.substr(1)+".html");
-        console.log(id.substr(1))
-        console.log("HII")
+        
         var page = window.location.hash.length == 0 ? '#about' : window.location.hash;
         if (!isMobile && id == page) {
             $(id).show();
