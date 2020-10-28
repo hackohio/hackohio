@@ -215,10 +215,17 @@
 }
 
 .tier{
-    text-align: center; padding: 10%; background-color: black; color: white;
+    text-align: center; 
+    padding: 10%; 
+    background-color: black; 
+    color: white;
 }
 
 .sponsor-logos-row {
     padding: 1%;
+    align-items: center;
+}
+
+.row{
     align-items: center;
 }
