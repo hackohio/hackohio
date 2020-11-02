@@ -216,7 +216,7 @@
 
 .tier{
     text-align: center; 
-    padding: 10%; 
+    padding: 13%; 
     background-color: black; 
     color: white;
 }
@@ -226,6 +226,14 @@
     align-items: center;
 }
 
-.row{
+.row .logos{
     align-items: center;
+}
+
+#volunteers h2{
+    text-align: left;
+}
+
+#volunteers p{
+    text-align: left;
 }
