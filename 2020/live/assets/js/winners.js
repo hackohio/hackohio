@@ -1,4 +1,4 @@
-const sheetURL = 'https://docs.google.com/spreadsheets/d/1rvIDdjU9_-aO0S_33R5QaPrxpsGCnKmxR2Hh4S8QXck/edit#gid=0';
+const sheetURL = 'https://docs.google.com/spreadsheets/d/1niHee3jCsXVwP1o5RJkJwH2VgDJ-7M3WnSqNKnIyXbU/edit#gid=0';
 
 $("#load-winners").sheetrock({
     url: sheetURL,

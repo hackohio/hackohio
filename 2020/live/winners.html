@@ -9,7 +9,7 @@
         <meta name="author" content="OHI/O">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HackOHI/O 2019 - Winners</title>
+        <title>HackOHI/O 2020 - Winners</title>
 
         <link rel="icon" href="../../hack-assets/img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="assets/css/site.css">
@@ -34,9 +34,12 @@
         <div id="mobile-nav">
             <a id="nav-home" href="index.html">HackOHI/O 2020</a>
             <div id="nav-links">
-              <a href="index.html">Live Site</a>
-              <a href="winners.html">Winners</a>
-              <a href="/2020">Main Site</a>
+              <a href="index.html">Updates</a>
+                <a href="./index.html#accordionExample" onclick="participants();" id="participantsLink">For Participants</a>
+                <a href="./index.html#accordionExample" onclick="mentors();" id="mentorsLink">For Mentors</a>
+                <a href="./index.html#accordionExample" onclick="judges();" id="judgesLink">For Judges</a>
+                <a href="winners.html">Winners</a>
+                <a href="/2020">Main Site</a>
             </div>
             <img src="../../hack-assets/img/menu.svg" id="mobile-menu" onclick="toggleNav()"/>
         </div>
@@ -46,10 +49,14 @@
                 <img src="../../hack-assets/img/hack2020logo.svg" height="250px" width="250px"/>
             </div>
 
-            <!--<div id="countdown"></div>-->
+            <h3 style="text-align: center;">Hacking begins in:</h3>
+            <div id="countdown"></div>
 
             <div id="nav">
-                <a href="index.html">Live Site</a>
+                <a href="index.html">Updates</a>
+                <a href="./index.html#accordionExample" onclick="participants();" id="participantsLink">For Participants</a>
+                <a href="./index.html#accordionExample" onclick="mentors();" id="mentorsLink">For Mentors</a>
+                <a href="./index.html#accordionExample" onclick="judges();" id="judgesLink">For Judges</a>
                 <a href="winners.html">Winners</a>
                 <a href="/2020">Main Site</a>
             </div>
@@ -77,5 +84,6 @@
         <script src="assets/js/particlesapp.js"></script>
         <script src="../../hack-assets/js/sheetrock.min.js"></script>
         <script src="assets/js/winners.js" async></script>
+        <script src="assets/js/accordionSections.js"></script>
     </body>
 </html>
