@@ -474,6 +474,44 @@ a {
   align-items: center;
 }
 
+.rooms-table td {
+    padding: 4px;
+    margin: 3px;
+}
+.rooms-table th {
+    background-color: #525252; 
+    color: #FFF;
+    font-weight: bold;
+}
+.rooms-table td{
+  padding: 7px 15px;
+  text-align: left;
+}
+.rooms-table td:first-child{
+  text-align: right;
+  border-right: 2px solid gray;
+}
+
+.judging-timeline-table th{
+  background-color: #525252; 
+  color: #FFF;
+  font-weight: bold;
+}
+
+.judging-timeline-table td{
+  padding: 7px 15px;
+  text-align: left !important;
+}
+
+.judging-timeline-table td:first-child{
+  text-align: right !important;
+  border-right: 2px solid gray;
+}
+
+.judging-timeline-table td:nth-child(2){
+  text-align: right;
+  border-right: 2px solid gray;
+}
 /* Bootstrap row/columns */
 .row {
   display: -ms-flexbox;

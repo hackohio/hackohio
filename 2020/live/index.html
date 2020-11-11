@@ -54,9 +54,9 @@
 
             <div id="nav">
                 <a href="index.html">Updates</a>
-                <a href="./index.html#accordionExample" id="participantsLink">For Participants</a>
-                <a href="#accordionExample" id="mentorsLink">For Mentors</a>
-                <a href="#accordionExample" id="judgesLink">For Judges</a>
+                <a href="./index.html#accordionExample" onclick="participants();" id="participantsLink">For Participants</a>
+                <a href="./index.html#accordionExample" onclick="mentors();" id="mentorsLink">For Mentors</a>
+                <a href="./index.html#accordionExample" onclick="judges();" id="judgesLink">For Judges</a>
                 <a href="winners.html">Winners</a>
                 <a href="/2020">Main Site</a>
             </div>
@@ -110,7 +110,7 @@
                                     <a href="techtalks.html">List of Tech Talks!</a>
                                 </li>
                                 <li>
-                                    <a href="">List of Sponsor Rooms and Activities!</a>
+                                    <a href="sococorooms.html">List of Sponsor Rooms and Activities!</a>
                                 </li>
                             </ul>
                         </li>
@@ -154,7 +154,7 @@
                         </li>
                         <li>
                           <h3>Before leaving HackOHI/O we would greatly appreciate if you could fill out the exit survey at <a
-                            href="https://go.osu.edu/hack2019exitsurvey">go.osu.edu/hack2020exitsurvey</a></h3>
+                            href="https://go.osu.edu/hack2020exit">https://go.osu.edu/hack2020exit</a></h3>
                         </li>
                     </ul>
                     
@@ -187,7 +187,7 @@
                                   <a href="https://hack.osu.edu/assets/pdf/Hack2020CodeOfConduct.pdf">Code of Conduct</a>
                                 </li>
                                 <li>
-                                  Teams must consist of 2-5 students.
+                                  Teams must consist of 2-4 students.
                                 </li>
                                 <li>
                                   All work must be done during the weekend. Do NOT start work beforehand.
@@ -198,7 +198,7 @@
                               <h2>List of sponsor <a href="challenges.html">challenges</a> and their descriptions.</h2>
                             </li>
                             <li>
-                              <h2><a href="">Prizes and Awards</a></h2>
+                              <h2><a href="judging.html">Prizes and Awards</a></h2>
                             </li>
                             <li>
                               <h2>Judging Process:</h2>
@@ -248,8 +248,33 @@
                             <h3>Particpants will reach out to you for help in via message in Sococo or in the mentor slack channel.</h3>
                           </li>
                           <li>
-                            <h3>Mentor <a href="">Schedule</a>!</h3>
+                            <h3>On Sococo please select orange as the color of your icon to designate your mentor capacity</h3>
+                            <ul>
+                              <li>
+                                Find your self in the left side bar and click the three dots to the right of it
+                              </li>
+                              <li>
+                                Choose edit profile
+                              </li>
+                              <li>
+                                Select orange icon color and save
+                              </li>
+                            </ul>
                           </li>
+                          <li>
+                            <h3>Please identify your mentor strengths in the available status.</h3>
+                            <ul>
+                              <li>
+                                On the left side of the top navigation bar click the down arrow next to your availability. 
+                              </li>
+                              <li>
+                                Click into the message text and replace it with the top 1-3 things you can mentor for for example: C+, Java, UI. or MS challenge, Mobility, Web Dev.
+                              </li>
+                            </ul>
+                          </li>
+                          <!-- <li>
+                            <h3>Mentor <a href="">Schedule</a>!</h3>
+                          </li> -->
                         </ul>  
                       </div>
                     </div>
@@ -309,7 +334,7 @@
                           </li>
                           <li>
                             <h3>Judging Timeline</h3>
-                            <table id="judgingTimeline">
+                            <table class="judging-timeline-table">
                               <tr>
                                 <th colspan="3" style="text-align:center;">
                                   During Event (11/15)

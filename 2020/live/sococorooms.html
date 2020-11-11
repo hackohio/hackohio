@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <meta name="description" content="OHI/O: Fostering a Tech Culture at Ohio State">
+        <meta name="keywords" content="Hackathon, OHIO, tech">
+        <meta name="author" content="OHI/O">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>HackOHI/O 2020 - Live Site</title>
+
+        <link rel="icon" href="../../hack-assets/img/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="assets/css/site.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/clock.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/particlesstyle.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/sidebar.css">
+        <link rel="stylesheet" type="text/css" href="https://www.osu.edu/assets/fonts/webfonts.css">
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-51284668-6', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </head>
+
+    <body>
+        <div id="particles-js"></div>
+
+        <div id="mobile-nav">
+            <a id="nav-home" href="index.html">HackOHI/O 2020</a>
+            <div id="nav-links">
+              <a href="index.html">Updates</a>
+              <a href="#accordionExample" id="participantsLink">For Participants</a>
+              <a href="#accordionExample" id="mentorsLink">For Mentors</a>
+              <a href="#accordionExample" id="judgesLink">For Judges</a>
+              <a href="winners.html">Winners</a>
+              <a href="/2020">Main Sites</a>
+            </div>
+            <img src="../../hack-assets/img/menu.svg" id="mobile-menu" onclick="toggleNav()"/>
+        </div>
+
+        <div id="sidebar">
+            <div id="logo">
+                <img src="../../hack-assets/img/hack2020logo.svg" height="250px" width="250px"/>
+            </div>
+
+            <h3 style="text-align: center;">Hacking begins in:</h3>
+            <div id="countdown"></div>
+
+            <div id="nav">
+                <a href="index.html">Updates</a>
+                <a href="./index.html#accordionExample" onclick="participants();" id="participantsLink">For Participants</a>
+                <a href="./index.html#accordionExample" onclick="mentors();" id="mentorsLink">For Mentors</a>
+                <a href="./index.html#accordionExample" onclick="judges();" id="judgesLink">For Judges</a>
+                <a href="winners.html">Winners</a>
+                <a href="/2020">Main Site</a>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="header">
+                <h1>Announcements</h1>
+                <div class="content-box announcements">
+                    <table class="rooms-table">
+                    <thead><tr class="tableizer-firstrow"><th colspan="2" style="background-color: #BF1313;">Scarlet Floor</th></tr>
+                    <tr class="tableizer-firstrow"><th style="background-color: #BF1313;">Room Name</th><th style="background-color: #BF1313;">Description</th></tr></thead><tbody>
+                     <tr><td>The Union</td><td>&nbsp;</td></tr>
+                     <tr><td>TF: Big Data</td><td>Chat for people looking to talk about big data</td></tr>
+                     <tr><td>TF: Mobile Dev</td><td>Chat for people looking to make a mobile app</td></tr>
+                     <tr><td>TF: Machine Learning</td><td>Chat for people looking to use machine learning for their project</td></tr>
+                     <tr><td>TF: Sponsor Challenges</td><td>Chat for people looking to team up on sponsor projects</td></tr>
+                     <tr><td>Minecraft Hangout</td><td>Hangout with fellow hackers to play some Minecraft</td></tr>
+                     <tr><td>Among Us Hangout</td><td>An among us lobby for anyone who needs a break!</td></tr>
+                     <tr><td>AEP</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                     <tr><td>JPMC</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                     <tr><td>HONDA</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                     <tr><td>ROOT</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                     <tr><td>Hack Hangout</td><td>Chat with fellow hackers, organizers, mentors and sponsor reps!</td></tr>
+                     <tr><td>OHI/O Organizers</td><td>Room for the organizers to communicate during the event.</td></tr>
+                     <tr><td>MICROSOFT</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    </tbody></table>
+                    <br>
+                    <table class="rooms-table">
+                    <thead><tr class="tableizer-firstrow"><th colspan="2">Grey Floor</th></tr>
+                    <tr class="tableizer-firstrow"><th>Room Name</th><th>Description</th></tr></thead><tbody>
+                    <tr><td>The Oval</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>TF: Game Jam</td><td>Chat for people looking to make a game</td></tr>
+                    <tr><td>TF: Open Source</td><td>Chat for people looking to start an open source project</td></tr>
+                    <tr><td>TF: Cybersecurity</td><td>Chat for people looking to work on a cybersecurity project</td></tr>
+                    <tr><td>TF: Covid Related</td><td>Chat for people looking to work on a project related to Covid-19</td></tr>
+                    <tr><td>CapitalOne</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>Battelle</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>ENGIE</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>Big Lots</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>Nexient</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>StateAuto</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>Hack Hangout</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>OHI/O Organizers</td><td>Learn more about the company, network with the sponsor reps, ask about challenges!</td></tr>
+                    <tr><td>GAMES</td><td></td></tr>
+                    </tbody></table>
+                    
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="assets/js/nav.js"></script>
+        <script src="assets/js/clock.js"></script>
+        <script src="../../hack-assets/js/particles.min.js"></script>
+        <script src="assets/js/particlesapp.js"></script>
+        <script src="../../hack-assets/js/sheetrock.min.js"></script>
+        <script src="assets/js/announcements.js" async></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="assets/js/accordionSections.js"></script>
+    </body>
+</html>
