@@ -36,3 +36,8 @@
     display: none;
   }
 }
+
+.anim, .anim svg {
+  position: relative;
+  width: 95%;
+}
