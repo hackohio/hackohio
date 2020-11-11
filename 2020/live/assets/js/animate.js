@@ -1,7 +1,7 @@
 var pathEls = document.querySelectorAll('.path_anim');
 for (var i = 0; i < pathEls.length; i++) {
   // Don't animate 40% of lines
-  if (Math.random() < .40) {
+  if (Math.random() < .20) {
     continue;
   }
   var pathEl = pathEls[i];
@@ -17,7 +17,7 @@ for (var i = 0; i < pathEls.length; i++) {
   anime({
     targets: pathEl,
     strokeDashoffset: range,
-    duration: anime.random(1000, 3000),
+    duration: anime.random(1500, 3000),
     delay: anime.random(250, 1000),
     loop: true,
     direction: 'alternate',
