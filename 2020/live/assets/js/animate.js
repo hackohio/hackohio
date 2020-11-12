@@ -1,7 +1,7 @@
 var pathEls = document.querySelectorAll('.path_anim');
 for (var i = 0; i < pathEls.length; i++) {
   // Don't animate 40% of lines
-  if (Math.random() < .20) {
+  if (Math.random() < .40) {
     continue;
   }
   var pathEl = pathEls[i];
