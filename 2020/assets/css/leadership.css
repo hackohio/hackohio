@@ -88,3 +88,8 @@
     bottom: 5%;
     color: #BF1313;
   }
+
+  .hover {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;        
+    }
