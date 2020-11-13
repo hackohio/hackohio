@@ -6,7 +6,6 @@ function refreshTimer() {
 }
 
 function loadAnnouncements() {
-  console.log('loading')
   // Spreadsheet URL
   var sheetURL = 'https://docs.google.com/spreadsheets/d/1h-FKTF1Us49Z4mlgriWWizzaWBKM_1KH5Wyz1PtvrJM/edit#gid=0';
 
