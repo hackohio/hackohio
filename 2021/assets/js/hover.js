@@ -1,0 +1,1 @@
+$('.leadership-img').on('touchstart', function() {});
