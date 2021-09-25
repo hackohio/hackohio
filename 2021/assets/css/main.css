@@ -72,6 +72,24 @@ a {
     color: gray;
 }
 
+@media (max-height: 620px) {
+    h1.header-info {
+        font-size: 5vh;
+    }
+    h2.header-info {
+        font-size: 4vh;
+    }
+    #hack-logo {
+        height: 24vh;
+    }
+    #map-icon {
+        height: 4vh;
+    }
+    #apply {
+        font-size: 4vh;
+    }
+}
+
 @media (max-width: 850px) {
     html {
         font-size: 16px;
