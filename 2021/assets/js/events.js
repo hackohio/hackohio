@@ -1,5 +1,5 @@
 // Spreadsheet URL
-const sheetURL = 'https://docs.google.com/spreadsheets/d/1_q59ELsePJP1bV4RnTQ9oo_Xqaiz3ciNrrlR8O6Kak4/edit#gid=0';
+const sheetURL = 'https://docs.google.com/spreadsheets/d/1YHJo6R98dmx3G5KSqEpQUzdz1uWCFn5KH6H0VQxr78g/edit#gid=0';
 
 const numOfEventsToShow = 7;
 const headerName = "hype";
@@ -55,8 +55,10 @@ function parseEvent(data) {
     var location = $(data[6]).text();
     var learnMore = $(data[7]).text();
 
+    var hypeEvent = $(data[8]).text());
+
     // Check if there is a title
-    if (!title) {
+    if (!title || !hypeEvent) {
         return null;
     }
 
