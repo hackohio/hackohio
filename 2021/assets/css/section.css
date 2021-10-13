@@ -172,7 +172,6 @@
     text-align: left;
 }
 
-
 .faq-question h3{
     color: black;
 }
@@ -184,6 +183,9 @@
 .faq-question a{
     color: gray;
     text-decoration: underline;
+}
+.faq-question h4{
+  color: #BB0000;
 }
 
 /** About */
