@@ -15,6 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 10px;
 }
 
 #apply {
@@ -72,21 +73,25 @@ a {
     color: gray;
 }
 
-@media (max-height: 620px) {
+@media (max-height: 720px) {
     h1.header-info {
         font-size: 5vh;
     }
     h2.header-info {
-        font-size: 4vh;
+        font-size: 3vh;
     }
     #hack-logo {
-        height: 24vh;
+        height: 34vh;
     }
     #map-icon {
         height: 4vh;
     }
     #apply {
         font-size: 4vh;
+    }
+    #countdown {
+         font-size: 2vh;
+         height: 10vh;
     }
 }
 
@@ -189,3 +194,66 @@ a {
 	width:100%;
 	height:100%;
 }
+
+/* Hype events */
+#hype {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+#hype-header {
+  margin: auto;
+}
+.hype-event {
+  position: relative;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+}
+
+.container .hype-event:nth-child(2n+1) {
+  /*background-color: #ededed;*/
+}
+
+.hype-event .name {
+  flex: 3;
+}
+.hype-event .date {
+  flex: 2;
+}
+.hype-event .location {
+  flex: 2;
+}
+.event-subtext {
+  font-size: 0.75em;
+}
+.red-bar {
+  height: 100%;
+  width: 10px;
+  left: 0;
+  background-color: #bb0000;
+  position: absolute;
+}
+
+@media (max-width: 750px) {
+  .hype-event {
+    flex-direction: column;
+  }
+
+  .hype-event h4,
+  .hype-event h3 {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
