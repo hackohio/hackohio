@@ -15,6 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 10px;
 }
 
 #apply {
@@ -72,21 +73,25 @@ a {
     color: gray;
 }
 
-@media (max-height: 620px) {
+@media (max-height: 720px) {
     h1.header-info {
         font-size: 5vh;
     }
     h2.header-info {
-        font-size: 4vh;
+        font-size: 3vh;
     }
     #hack-logo {
-        height: 24vh;
+        height: 34vh;
     }
     #map-icon {
         height: 4vh;
     }
     #apply {
         font-size: 4vh;
+    }
+    #countdown {
+         font-size: 2vh;
+         height: 10vh;
     }
 }
 
