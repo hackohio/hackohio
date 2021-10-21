@@ -1,4 +1,4 @@
-var hackingStarts = "2021-10-20T18:00:00-05:00";
+var hackingStarts = "2021-11-06T10:00:00-05:00";
 initializeClock('countdown', hackingStarts);
 
 function getTimeRemaining(endTime){
