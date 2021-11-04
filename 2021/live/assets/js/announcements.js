@@ -7,7 +7,7 @@ function refreshTimer() {
 
 function loadAnnouncements() {
   // Spreadsheet URL
-  var sheetURL = 'https://docs.google.com/spreadsheets/d/1h-FKTF1Us49Z4mlgriWWizzaWBKM_1KH5Wyz1PtvrJM/edit#gid=0';
+  var sheetURL = 'https://docs.google.com/spreadsheets/d/1oweof2RAEKRz93oBK5yXjQaE9kHV7p0m6kquZ5pG_Xs/edit#gid=0';
 
   // Load into table
   var target = $("#sheetrock_load");
