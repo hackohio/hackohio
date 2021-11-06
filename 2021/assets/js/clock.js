@@ -1,4 +1,5 @@
-var hackingStarts = "2021-11-06T10:00:00-05:00";
+var hackingStarts = "2021-11-06T09:00:00-05:00"; //UTC data time format
+//hackingEnds = "2021-11-07T09:30:00-05:00"
 initializeClock('countdown', hackingStarts);
 
 function getTimeRemaining(endTime){
