@@ -3558,6 +3558,8 @@ input, select, textarea {
 			background-image: linear-gradient(90deg, #FBC00C, #E40D13, #981366);
 		}
 
+		
+
 		#main table tbody tr {
 			border-color: #dddddd;
 		}
@@ -3789,3 +3791,57 @@ input, select, textarea {
 			}
 
 		}
+
+/* FAQ Accordion */
+
+.faq-accordion {
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 0 0 0.7em 0;
+	letter-spacing: -0.025em;
+	font-size: 1.5em;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  }
+  
+  .active, .faq-accordion:hover {
+	background-color: #ccc;
+  }
+  
+  .faq-question {
+	padding: 0 18px;
+	max-height: 0;
+	border-style:solid;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+
+  #faq p:after{
+	display: block;
+    content: '';
+    width: 3.25em;
+    height: 2px;
+    margin: 0.7em 0 1em 0;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.35);
+    background-image: -moz-linear-gradient(90deg, #FBC00C, #E40D13, #981366);
+    background-image: -webkit-linear-gradient(90deg, #FBC00C, #E40D13, #981366);
+    background-image: -ms-linear-gradient(90deg, #FBC00C, #E40D13, #981366);
+    background-image: linear-gradient(90deg, #FBC00C, #E40D13, #981366);
+  }
+
+  .faq-accordion:after {
+	content: '\02795'; 
+	font-size: 25px;
+	float: right;
+	margin-top: 5px;
+	margin-left: 5px;
+  }
+  
+  #faq .active:after {
+	content: "\2796"; 
+  }
