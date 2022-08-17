@@ -3800,13 +3800,23 @@ input, select, textarea {
 	margin: 0 0 0.7em 0;
 	letter-spacing: -0.025em;
 	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	overflow-wrap: break-word;
+	word-break: break-all;
 	cursor: pointer;
 	width: 100%;
 	text-align: left;
+	text-overflow: ellipsis;
 	border: none;
 	outline: none;
 	transition: 0.4s;
+	position: relative;
+	display: inline-block;
+	height: auto;
   }
+
+
   
   .active, .faq-accordion:hover {
 	background-color: #ccc;
