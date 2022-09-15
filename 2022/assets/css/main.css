@@ -3857,3 +3857,38 @@ input, select, textarea {
   #faq .active:after {
 	content: "\2796"; 
   }
+
+/* Announcements */
+
+:root {
+	--announcement-fade: linear-gradient(transparent, #1d1d1d);
+}
+
+.announcements-list {
+	list-style: none;
+	padding: 0;
+}
+
+.announcements-list > li {
+	margin: 2em 0;
+}
+
+.announcement-content {
+	position: relative;
+	max-height: 3em;
+	overflow: hidden;
+}
+
+.announcement-content::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	content: "";
+	background: var(--announcement-fade);
+}
+
+.announcement-expand {
+	margin: 2em 0;
+}
