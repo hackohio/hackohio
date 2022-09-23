@@ -3584,6 +3584,28 @@ input, select, textarea {
 			border-color: #dddddd;
 		}
 
+		#main table.prizes {
+			border: 3px;
+		}
+
+		#main table.prizes th {
+			text-align: center;
+			vertical-align: middle;
+			color: white;
+			font-size: 120%;
+		}
+
+		#main table.prizes td {
+			text-align: center;
+			vertical-align: middle;
+			font-size: 110%;
+		}
+
+		#main table.prizes td.grand {
+			font-size: 140%;
+			font-weight: bold;
+		}
+
 		#main .spotlight .image {
 			border-color: #dddddd;
 		}
