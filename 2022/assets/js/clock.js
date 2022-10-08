@@ -2,7 +2,7 @@ initializeClock('countdown');
 //2020-11-15T12:00:00-05:00
 function getTimeRemaining(){
   var hackingStarts = "2022-10-08T13:12:00.000Z";
-  var hackingEnds = "2022-10-09T13:12:00.000Z";
+  var hackingEnds = "2022-10-09T14:15:00.000Z";
   var time;
 
   if (Date.parse(hackingStarts) - Date.parse(new Date()) > 0) {
@@ -27,8 +27,8 @@ function initializeClock(id){
 
 
     var clock = document.getElementById(id);
-    clock.innerHTML = '<div><span class="hours time"></span><div class="time-label">hours</div></div>'
-        + '<div><span class="minutes time"></span><div class="time-label">minutes</div></div>'
+    clock.innerHTML = '<div ><span class="hours time"></span><div class="time-label">hours</div></div>'
+        + '<div display:inline;><span class="minutes time"></span><div class="time-label">minutes</div></div>'
         + '<div><span class="seconds time"></span><div class="time-label">seconds</div></div>';
 
     var hoursSpan = clock.querySelector('.hours');
