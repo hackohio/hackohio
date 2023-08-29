@@ -2691,9 +2691,9 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-				header.major p br {
+				/* header.major p br {
 					display: none;
-				}
+				} */
 
 		footer.major {
 			margin-top: 0;
@@ -3159,9 +3159,9 @@ input, select, textarea {
 					letter-spacing: 0;
 				}
 
-					#header p br {
+					/* #header p br {
 						display: none;
-					}
+					} */
 
 				#header.alt {
 					padding: 4em 2em 1em 2em ;
