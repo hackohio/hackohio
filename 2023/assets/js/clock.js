@@ -1,4 +1,4 @@
-var hackingStarts = "2021-11-07T08:00:00-05:00"; //UTC data time format
+var hackingStarts = "2023-10-28T08:00:00-05:00"; //UTC data time format
 //hackingEnds = "2021-11-07T09:30:00-05:00"
 initializeClock('countdown', hackingStarts);
 
@@ -19,10 +19,10 @@ function getTimeRemaining(endTime){
 
 function initializeClock(id, endTime){
     var clock = document.getElementById(id);
-    clock.innerHTML = '<div><span class="days time"></span><div class="time-label">days</div></div>'
-        + '<div><span class="hours time"></span><div class="time-label">hours</div></div>'
-        + '<div><span class="minutes time"></span><div class="time-label">minutes</div></div>'
-        + '<div><span class="seconds time"></span><div class="time-label">seconds</div></div>';
+    clock.innerHTML = '<div><span class="days time"></span><div class="time-label">d</div></div>'
+        + '<div><span class="hours time"></span><div class="time-label">h</div></div>'
+        + '<div><span class="minutes time"></span><div class="time-label">m</div></div>'
+        + '<div><span class="seconds time"></span><div class="time-label">s</div></div>';
 
     var daysSpan = clock.querySelector('.days');
     var hoursSpan = clock.querySelector('.hours');
