@@ -11,6 +11,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/clock.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -24,15 +25,22 @@
 		<!-- Header -->
 		<header id="header" class="alt">
 			<h1>
-				<span class="logo"><img src="images/logo.svg" alt="HackOHI/O 11" width="400px" height="188px"/></span>
+				<span class="logo"><img src="images/Hack11_logo.svg" alt="HackOHI/O 11" width="400px" height="188px"/></span>
 			</h1>
 			<p><strong>Ohio State's Premier Hackathon</strong><br />
 				October 28-29, 2023<br />
 				Ohio Union & Online<br />
 				<br />
 				<a class="button primary" href="https://osu.az1.qualtrics.com/jfe/form/SV_bBO9jqiKWH763bM"><strong>Register</strong></a><br />
-				<br />
-				More information about volunteering, challenges & prizes, and schedule coming soon.
+				<div style="text-align: center;">
+					<b>Hacking starts in</b> <br />
+					<div style="background-color: #04587C; border-radius: 10px; display: inline-block;">
+						<div id="countdown">
+							<script src="assets/js/clock.js"></script>
+						</div>
+					</div>
+				</div> <br />
+				More information about challenges & prizes and schedule coming soon.
 			</p>
 		</header>
 
@@ -40,8 +48,10 @@
 		<nav id="nav">
 			<ul>
 				<li><a href="#about" class="active">About</a></li>
+				<li><a href="#volunteers" class="active">Volunteers</a></li>
 				<li><a href="#sponsors">Sponsors</a></li>
 				<!-- <li><a href="#challenges-prizes">Challenges & Prizes</a></li> -->
+				<li><a href="#schedule">Schedule</a></li>
 				<li><a href="#faq">FAQ</a></li>
 				<li><a href="https://hack.osu.edu/2022">Check out last year's event</a></li>
 				<li><a href="https://hack.osu.edu">OHI/O Homepage</a></li>
@@ -80,6 +90,29 @@
 				</div>
 			</section>
 
+			<!-- volunteers -->
+			<section id="volunteers" class="main">
+				<div class="content">
+					<header class="major">
+						<h2>Volunteers</h2>
+					</header>
+					<p>
+						HackOHI/O provides opportunities for industry and academic professionals to work directly with students. <br><br>
+	
+						<b>Mentors</b> will assist participants throughout the event with any questions or concerns they may have while 
+						creating their project. We welcome individuals with knowledge and expertise in various topics to help mentor students at HackOHI/O. 
+						This year, mentors can participate both virtually and in-person. <br><br>
+	
+						<b>Judges</b> will help us score teams on October 29th by reviewing their projects in the form of a video submission and live discussion 
+						with the teams. This year, judges will be virtual only. If you are interested in attending the event in-person and want to judge, 
+						please sign up to be a mentor as well. <br><br>
+					</p>
+					<ul class="actions">
+						<li><a href="https://osu.az1.qualtrics.com/jfe/form/SV_abdJHSpfdiHTgY6" target="_blank" rel="noopener noreferrer" class="button">Volunteer Sign-up &rsaquo;</a></li>
+					</ul>
+				</div>
+			</section>
+
 			<!-- Sponsors -->
 			<section id="sponsors" class="main">
 				<div class="content">
@@ -88,18 +121,36 @@
 					</header>
 					<div class="box alt">
 						<div class="row gtr-uniform">
+
+							<!-- Platinum Level Sponsers -->
 							<div class="col-6"><span class="image fit"><img src="images/sponsor-honda.png"
 										alt="Honda" /></span></div>
-							<div class="col-6"><span class="image fit"><img src="images/sponsor-aep.png"
-								alt="Ford" /></span></div>
 							<div class="col-6"><span class="image fit"><img src="images/sponsor-verizon.png"
 										alt="Verizon" /></span></div>
+							
+							<!-- Gold Level Sponsers -->
+							<div class="col-6"><span class="image fit"><img src="images/sponsor-engie.png"
+										alt="Engie" /></span></div>
 							<div class="col-6"><span class="image fit"><img src="images/sponsor-veeva.png"
-										alt="Veeva" /></span></div>
+										alt="Veeva" /></span></div>			
+							
+							<!-- Silver Level Sponsers -->
+							<div class="col-6"><span class="image fit"><img src="images/sponser-battelle.png"
+										alt="Battelle" /></span></div>			
 							<div class="col-6"><span class="image fit"><img src="images/sponsor-ford.png"
 										alt="Ford" /></span></div>
+
+							<!-- Bronze/Unknown Level Sponsers -->
 							<div class="col-6"><span class="image fit"><img src="images/sponsor-caterpillar.png"
-								alt="Ford" /></span></div>
+										alt="Caterpillar" /></span></div>
+							<div class="col-6"><span class="image fit"><img src="images/sponser-deloitte.png"
+										alt="Deloitte" /></span></div>		
+							<div class="col-6"><span class="image fit"><img src="images/sponser-firstenergy.png"
+										alt="First Energy" /></span></div>										
+							<div class="col-6"><span class="image fit"><img src="images/sponsor-aep.png"
+										alt="AEP" /></span></div>
+						
+						
 						</div>
 					</div>
 				</div>
@@ -116,6 +167,104 @@
 					</p>
 				</div>
 			</section> -->
+
+			<section id="schedule" class="main">
+				<div class="content">
+					<header class="major">
+						<h2>Schedule</h2>
+					</header>
+					<h3>Saturday, October 28th</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Event</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Check-in</td>
+								<td>8:00AM</td>
+							</tr>
+							<tr>
+								<td>Team formation</td>
+								<td>8:00AM - 8:30AM</td>
+							</tr>
+							<tr>
+								<td>Breakfast served</td>
+								<td>8:30AM</td>
+							</tr>
+							<tr>
+								<td>Sponsor tabling</td>
+								<td>9:00AM - 12:00PM</td>
+							</tr>
+							<tr>
+								<td>Opening ceremony</td>
+								<td>9:30AM</td>
+							</tr>
+							<tr>
+								<td>Hacking begins</td>
+								<td>10:00AM</td>
+							</tr>
+							<tr>
+								<td>Lunch served</td>
+								<td>12:00PM</td>
+							</tr>
+							<tr>
+								<td>Team mentor check-in 1</td>
+								<td>2:00PM - 3:00PM</td>
+							</tr>
+							<tr>
+								<td>Dinner served</td>
+								<td>6:00PM</td>
+							</tr>
+							<tr>
+								<td>Team mentor check-in 2</td>
+								<td>7:00PM - 8:00PM</td>
+							</tr>
+						</tbody>
+					</table>
+					<h3>Sunday, October 29th</h3>
+					<table>
+						<thead>
+							<tr>
+								<th>Event</th>
+								<th>Time</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Midnight snack served</td>
+								<td>12:00AM</td>
+							</tr>
+							<tr>
+								<td>Breakfast served</td>
+								<td>7:30AM</td>
+							</tr>
+							<tr>
+								<td>Hacking ends</td>
+								<td>10:00AM</td>
+							</tr>
+							<tr>
+								<td>Judging period</td>
+								<td>10:30AM - 1:30AM</td>
+							</tr>
+							<tr>
+								<td>Lunch served</td>
+								<td>11:00AM</td>
+							</tr>
+							<tr>
+								<td>Non-competitive showcase</td>
+								<td>12:30PM - 2:00PM</td>
+							</tr>
+							<tr>
+								<td>Closing ceremony & showcase</td>
+								<td>2:30PM</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
 
 			<!-- FAQ -->
 			<section id="faq" class="main">
