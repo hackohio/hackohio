@@ -1,6 +1,6 @@
-var hackingStarts = "2023-10-28T08:00:00-05:00"; //UTC data time format
-//hackingEnds = "2021-11-07T09:30:00-05:00"
-initializeClock('countdown', hackingStarts);
+//var hackingStarts = "2023-10-28T08:00:00-05:00"; //UTC data time format
+var hackingEnds = "2023-10-29T09:00:00-05:00";
+initializeClock('countdown', hackingEnds);
 
 function getTimeRemaining(endTime){
   var t = Date.parse(endTime) - Date.parse(new Date());
