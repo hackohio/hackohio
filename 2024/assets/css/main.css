@@ -72,7 +72,8 @@ body {
     min-width: 320px; } }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  scroll-behavior: smooth;}
 
 *, *:before, *:after {
   box-sizing: inherit; }
