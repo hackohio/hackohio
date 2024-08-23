@@ -112,11 +112,11 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
-  color: #0057a1;
+  color: #660000ff;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #0057a1;
-    color: #0057a1 !important; }
+    border-bottom-color: #660000ff;
+    color: #660000ff !important; }
     a:hover strong {
       color: inherit; }
 
@@ -998,7 +998,7 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 3px #0057a1;
+  border-bottom: solid 3px #660000ff;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
@@ -1056,8 +1056,8 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #0057a1;
-    box-shadow: 0 0 0 1px #0057a1; }
+    border-color: #660000ff;
+    box-shadow: 0 0 0 1px #660000ff; }
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(210, 215, 217, 0.75)' /%3E%3C/svg%3E");
@@ -1145,8 +1145,8 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #0057a1;
-    box-shadow: 0 0 0 1px #0057a1; }
+    border-color: #660000ff;
+    box-shadow: 0 0 0 1px #660000ff; }
 
 input[type="checkbox"] + label:before {
   border-radius: 0.375em; }
@@ -1383,7 +1383,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #0057a1;
+      color: #660000ff;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1428,7 +1428,7 @@ ul.pagination {
       padding: 0 0.5em;
       text-align: center; }
       ul.pagination li > .page.active {
-        background-color: #0057a1;
+        background-color: #660000ff;
         color: #ffffff !important; }
         ul.pagination li > .page.active:hover {
           background-color: #f67878; }
@@ -1451,7 +1451,8 @@ ul.pagination {
 
 table {
   margin: 0 0 2em 0;
-  width: 100%; }
+  width: 100%;
+border: solid 1px rgba(210, 215, 217, 0.75);}
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
     border-left: 0;
@@ -1464,7 +1465,7 @@ table {
     color: #3d4449;
     font-size: 0.9em;
     font-weight: 600;
-    padding: 0 0.75em 0.75em 0.75em;
+    padding: 0.75em 0.75em 0.75em 0.75em;
     text-align: left; }
   table thead {
     border-bottom: solid 2px rgba(210, 215, 217, 0.75); }
@@ -1502,8 +1503,8 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #0057a1;
-  color: #0057a1 !important;
+  box-shadow: inset 0 0 0 2px #660000ff;
+  color: #660000ff !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -1560,7 +1561,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #0057a1;
+    background-color: #660000ff;
     box-shadow: none;
     color: #ffffff !important; }
     input[type="submit"].primary:hover,
@@ -1649,7 +1650,7 @@ button,
       text-align: center;
       width: 10em; }
       .features article .icon:before {
-        color: #0057a1;
+        color: #660000ff;
         font-size: 2.75rem;
         position: relative;
         top: 0.05em; }
@@ -2082,7 +2083,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #0057a1;
+  border-bottom: solid 5px #660000ff;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2221,7 +2222,7 @@ button,
     font-size: 0.9em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #0057a1; }
+      color: #660000ff; }
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2251,7 +2252,7 @@ button,
         position: absolute;
         right: 0; }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #0057a1; }
+        color: #660000ff; }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block; }
       #menu ul a.opener.active:before, #menu ul span.opener.active:before {
